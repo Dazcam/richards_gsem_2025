@@ -1,0 +1,36 @@
+# MEAN_SAMPLE_SIZE = 101544
+# TOTAL_GENES = 18864
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Amygdala_excitatory                   SET    1270      0.09378       0.0235      0.03265    0.0020405 Amygdala_excitatory
+Astrocyte                             SET    1291    -0.013304   -0.0033593     0.033022      0.65648 Astrocyte
+Bergmann_glia                         SET    1244     0.010344    0.0025673      0.03322      0.37776 Bergmann_glia
+Cerebellar_inhibitory                 SET    1285     0.045873     0.011558     0.032864     0.081394 Cerebellar_inhibitory
+CGE_interneuron                       SET    1296     0.050188     0.012695      0.03242     0.060813 CGE_interneuron
+Choroid_plexus                        SET    1227     -0.07916    -0.019522     0.033614      0.99073 Choroid_plexus
+Committed_oligodendrocyte_pr...       SET    1352    -0.060126     -0.01551     0.032093      0.96949 Committed_oligodendrocyte_precursor
+Deep_layer_corticothalamic_a...       SET    1258       0.1177     0.029364     0.033515    0.0002232 Deep_layer_corticothalamic_and_6b
+Deep_layer_intratelencephalic         SET    1265      0.17155     0.042911     0.033175   1.1789e-07 Deep_layer_intratelencephalic
+Deep_layer_near_projecting            SET    1252      0.10745     0.026749     0.033393   0.00064721 Deep_layer_near_projecting
+Eccentric_medium_spiny_neuron         SET    1251      0.11908     0.029632     0.033202   0.00016807 Eccentric_medium_spiny_neuron
+Ependymal                             SET    1317    -0.090005    -0.022937     0.032478       0.9972 Ependymal
+Fibroblast                            SET    1354     -0.10845    -0.027993     0.032122      0.99963 Fibroblast
+Hippocampal_CA1_3                     SET    1253      0.11496     0.028627     0.033888   0.00034747 Hippocampal_CA1_3
+Hippocampal_CA4                       SET    1226      0.10777     0.026567     0.034426   0.00087443 Hippocampal_CA4
+Hippocampal_dentate_gyrus             SET    1223     0.099668     0.024542     0.034333    0.0018509 Hippocampal_dentate_gyrus
+LAMP5_LHX6_and_Chandelier             SET    1249      0.07318     0.018197     0.033486     0.014438 LAMP5_LHX6_and_Chandelier
+Lower_rhombic_lip                     SET    1277     -0.04273    -0.010735      0.03275        0.904 Lower_rhombic_lip
+Mammillary_body                       SET    1250    0.0097525    0.0024259     0.033856      0.38665 Mammillary_body
+Medium_spiny_neuron                   SET    1244     0.099507     0.024697     0.034126    0.0017759 Medium_spiny_neuron
+MGE_interneuron                       SET    1266     0.051331     0.012844     0.032994     0.059894 MGE_interneuron
+Microglia                             SET    1286     -0.09411     -0.02372     0.033233      0.99768 Microglia
+Midbrain_derived_inhibitory           SET    1234     0.065454     0.016184     0.034214      0.02788 Midbrain_derived_inhibitory
+Miscellaneous                         SET    1331     0.088534     0.022673     0.031854     0.002727 Miscellaneous
+Oligodendrocyte                       SET    1191    -0.013618   -0.0033122     0.034133      0.65504 Oligodendrocyte
+Oligodendrocyte_precursor             SET    1264    -0.016423   -0.0041063     0.033927      0.68582 Oligodendrocyte_precursor
+Splatter                              SET    1328    -0.054054    -0.013828     0.032549       0.9516 Splatter
+Thalamic_excitatory                   SET    1255     0.036746    0.0091576      0.03358      0.13692 Thalamic_excitatory
+Upper_layer_intratelencephal...       SET    1263      0.11995     0.029982     0.033476   0.00017018 Upper_layer_intratelencephalic
+Upper_rhombic_lip                     SET    1305   -0.0074559   -0.0018921     0.033031      0.58929 Upper_rhombic_lip
+Vascular                              SET    1336     -0.11668    -0.029933     0.031962      0.99987 Vascular

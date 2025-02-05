@@ -1,3 +1,11 @@
 .DS_Store
 results/.DS_Store
 results/01GENESETS/.DS_Store
+results/03MAGMA/*gsa.sets.genes.out
+results/03MAGMA/*gsa.genes.out
+results/03MAGMA/*log
+results/02LDSR/*
+results/02LDSR/SLDSR_baseline_v1.2/*
+resources/gwas/*
+resources/ldsr/*
+results/00LOG/*

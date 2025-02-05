@@ -1,0 +1,24 @@
+CELL_TYPES: [ "Amygdala_excitatory","Astrocyte","Bergmann_glia","Cerebellar_inhibitory","CGE_interneuron","Choroid_plexus","Committed_oligodendrocyte_precursor","Deep_layer_corticothalamic_and_6b","Deep_layer_intratelencephalic","Deep_layer_near_projecting","Eccentric_medium_spiny_neuron","Ependymal","Fibroblast","Hippocampal_CA1_3","Hippocampal_CA4","Hippocampal_dentate_gyrus","LAMP5_LHX6_and_Chandelier","Lower_rhombic_lip","Mammillary_body","Medium_spiny_neuron","MGE_interneuron","Microglia","Midbrain_derived_inhibitory","Miscellaneous","Oligodendrocyte","Oligodendrocyte_precursor","Splatter","Thalamic_excitatory","Upper_layer_intratelencephalic","Upper_rhombic_lip","Vascular" ] 
+RESULTS_DIR: "../results"
+RESOURCES_DIR: "../resources"
+LOG_DIR: "../results/00LOG"
+LDSR_REFERENCE: "../resources/ldsr/reference_files"
+ENV_DIR: "../envs/ldsr.yml"
+GENE_WINDOW: ["100UP100DOWN"]
+GWAS: ["SZ", "BD", "DIFF", "SHARED"]
+
+results_dir: "../results"
+resources_dir: "../resources"
+log_dir: "../results/00LOG"
+envs_dir: "../envs"
+
+ldsr:
+  gene_sets: "{results_dir}/01GENESETS/LDSR/{CELL_TYPE}.{GENE_WINDOW}.bed"
+  bim_file: "{resources_dir}/ldsr/reference_files/1000G_EUR_Phase3_plink/1000G.EUR.QC.{CHR}.bim"
+  annot_file: "{results_dir}/02LDSR/annotation_files/snRNAseq.{CELL_TYPE}.{GENE_WINDOW}.{CHR}.annot.gz"
+  ld_scores: "{results_dir}/02LDSR/annotation_files/snRNAseq.{CELL_TYPE}.{GENE_WINDOW}.{CHR}.l2.ldscore.gz"
+  snps_list: "{resources_dir}/ldsr/reference_files/hm3_no_MHC.list.txt"
+  weights: "{resources_dir}/ldsr/reference_files/1000G_Phase3_weights_hm3_no_MHC/weights.hm3_noMHC."
+  baseline: "{resources_dir}/ldsr/reference_files/1000G_Phase3_baseline_v1.2_ldscores/baseline."
+  frqfile: "{resources_dir}/ldsr/reference_files/1000G_Phase3_frq/1000G.EUR.QC."
+  summary_out: "{results_dir}/02LDSR/SLDSR_baseline_1.2/snRNAseq_LDSR_{GWAS}_baseline.v1.2_summary.tsv"

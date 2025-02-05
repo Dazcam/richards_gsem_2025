@@ -1,0 +1,9 @@
+configfile: '../config/config.yaml'
+
+include: 'rules/magma.smk'
+include: 'rules/ldsr.smk'
+
+rule all:
+    input:
+        expand("../results/02LDSR/SLDSR_baseline_v1.2/SLDSR_{GWAS}.100UP100DOWN_baseline.v1.2_summary.tsv", GWAS = config['GWAS']),
+        expand("../results/03MAGMA/{GWAS}_hg19_magma_35UP10DOWN.gsa.out", GWAS = config['GWAS'])
